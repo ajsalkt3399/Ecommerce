@@ -61,7 +61,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #C64444;
+  background-color: #c64444;
   color: white;
   text-align: center;
   border-radius: 5px;
@@ -70,14 +70,33 @@ h1 {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
-.scroll{
+.scroll {
   overflow-x: scroll;
 }
-.category_card{
+.category_card {
   width: 200px;
   height: 150px;
   overflow: hidden;
   border-radius: 15px;
   background-color: white;
   margin: 10px;
+}
+.search-div {
+  margin-right: 30px;
+  width: 250px;
+  height: 30px;
+  background-color: #d9d9d9;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 5px;
+  color: #666666;
+  border-radius: 15px;
+}
+
+.search-div img {
+  height: 15px;
+  width: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
