@@ -73,3 +73,11 @@ h1 {
 .scroll{
   overflow-x: scroll;
 }
+.category_card{
+  width: 200px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 15px;
+  background-color: white;
+  margin: 10px;
+}
