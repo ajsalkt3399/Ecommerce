@@ -15,8 +15,10 @@
     />
   </head>
   <body>
-    <div class="container-fluid  p-0">
-      <header class="d-flex justify-content-between align-items-center p-3 w-100" >
+    <div class="container-fluid p-0">
+      <header
+        class="d-flex justify-content-between align-items-center p-3 w-100"
+      >
         <div class="d-flex align-items-center">
           <img
             src="Images/kisspng-e-commerce-logo-electronic-business-5b00d2d0918d84.2335269315267806245962-removebg-preview.png"
@@ -24,11 +26,34 @@
             style="height: 60px; width: 60px"
           />
         </div>
-        <nav class="">
-          <a style="color: #d9d9d9" href="#" class="px-2">Home</a>
-          <a style="color: #d9d9d9" href="#" class="px-2">Product</a>
-          <a style="color: #d9d9d9" href="#" class="px-2">About</a>
-          <a href="#" style="color: #d9d9d9" class="px-2">Contact</a>
+        <nav class="navbar navbar-expand-lg navbar-light p-0" >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color: #d9d9d9">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color: #d9d9d9">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color: #d9d9d9">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color: #d9d9d9">Contact</a>
+              </li>
+            </ul>
+          </div>
         </nav>
         <div class="d-flex">
           <div class="search-div">
@@ -55,12 +80,11 @@
         </div>
       </header>
       <main>
-   
         <div
           id="carouselExampleIndicators"
           class="carousel slide"
           data-ride="carousel"
-          style="height: 70vh;"
+          style="height: 70vh"
         >
           <ol class="carousel-indicators">
             <li
